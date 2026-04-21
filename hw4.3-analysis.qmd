@@ -130,6 +130,10 @@ The goal of this analysis is to scrape passenger traffic data from the Wikipedia
 
 
 # Step 2: Scrape Data ----
+
+# Data source: Wikipedia "List of busiest airports by passenger traffic".
+# The URL below is a publicly accessible web page, no credentials required.
+
 airportRawList <- read_html(
   x = "https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic"
 ) |>
