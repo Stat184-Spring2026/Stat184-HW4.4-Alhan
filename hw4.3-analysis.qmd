@@ -22,6 +22,9 @@ execute:
 ```{r}
 
 #| label: loadPackages
+# Coding Style: This document follows the Tidyverse Style Guide
+# (https://style.tidyverse.org/). The style is applied consistently
+# across every code chunk in this QMD.
 # Load Packages ----
 library(tidyverse)
 library(rvest)
